@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBC clone</title>
+
+  <link rel="stylesheet" href="./scss/app.css">
+</head>
+<body>
+  <header>
+    <nav class="nav container">
+      <i class="nav__logo"><img src="https://static.files.bbci.co.uk/orbit/8161b75793cc3c38d814e1a4a19a2f6a/img/blq-orbit-blocks_white.svg" alt=""></i>
+      <a href="/" class="nav__profile"><img src="./profile.svg"/><p>Sign In</p></a>
+      <ul class="nav__categories">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">News</a></li>
+        <li><a href="/">Sport</a></li>
+        <li><a href="/">Reel</a></li>
+        <li><a href="/">Worklife</a></li>
+        <li><a href="/">Travel</a></li>
+        <li><a href="/">Future</a></li>
+        <li><a href="/">Culture</a></li>
+        <li><a href="/">More</a><i><img src="./dropdown.svg" class="dropdown"></i></li>
+      </ul>
+      <input type="search" placeholder="Search">
+      <i class="search-icon"><img src="https://img.icons8.com/fluency-systems-filled/48/000000/search.png"/></i>
+    </nav>
+  </header>
+
+  <main class="main container">
+    <section class="main__heading">
+      <h2>Welcome to BBC.com</h2>
+      <p>Friday, 14 January</p>
+    </section>
+    <section class="col2">
+      <article class="main__hero">
+        <img src="https://ichef.bbc.co.uk/wwhp/900/cpsprodpb/1D93/production/_122717570_borisjohnsonepa.jpg" alt="">
+        <h2 class="main__hero--title">No 10 apologises to Queen over lockdown parties</h2>
+        <p class="main__hero--summary">Two staff get-togethers took place in April last year, the night before Prince Philip's funeral.</p>
+        <a href="" class="category">UK POLITICS</a>
+      </article>
+
+      <section class="main__sideHero">
+        <article class="article">
+          <img src="https://ichef.bbci.co.uk/news/600/cpsprodpb/0907/production/_122711320_gettyimages-1335785331.jpg" alt="">
+          <h2 class="article--title">The politics behind Australia's Djokovic decision</h2>
+          <a href="" class="category">AUSTRALIA</a>
+        </article>
+        <article class="article">
+          <img src="https://ichef.bbc.co.uk/wwhp/600/cpsprodpb/F370/production/_122702326_super_promo_new_safe_zone.jpg" alt="">
+          <h2 class="article--title">Secret audio sheds light on dictator's frantic last hours</h2>
+          <a href="" class="category">AFRICA</a>
+        </article>
+        <article class="article">
+          <img src="https://ichef.bbc.co.uk/wwhp/600/ibroadcast/images/live/p0/bh/1r/p0bh1r1n.jpg" alt="">
+          <h2 class="article--title">How the return-to-office date 'died'</h2>
+          <a href="" class="category">WORKLIFE</a>
+        </article>
+        <article class="article">
+          <img src="https://ichef.bbc.co.uk/wwhp/600/ibroadcast/images/live/p0/bg/c3/p0bgc3nn.jpg" alt="">
+          <h2 class="article--title">The UK's plan to return to space</h2>
+          <a href="" class="category">FUTURE</a>
+        </article>
+      </section>
+    </section>
+
+    <section class="news">
+      <section class="news__heading">
+        <h2>News</h2>
+      </section>
+      <section class="news__content">
+        <article>
+          <img src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/0C95/production/_122712230_novakgetty.jpg" alt="">
+          <div class="text">
+            <h2 class="news__content--title">Djokovic to be detained in Australia but not yet deported</h2>
+            <p class="news__content--summary">The tennis star will be held but allowed to go to his lawyers' offices for meetings and a court hearing on Sunday.</p>
+            <a href="" class="category--darker">AUSTRALIA</a>
+          </div>
+        </article>
+        <article>
+          <img src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/14065/production/_122712028_ndgetty.jpg" alt="">
+          <div class="text">
+            <h2 class="news__content--title">Australia cancels Novak Djokovic's visa again</h2>
+            <p class="news__content--summary">The immigration minister says the unvaccinated tennis star may pose a public health risk.</p>
+            <a href="" class="category--darker">AUSTRALIA</a>
+          </div>
+        </article>
+        <article>
+          <img src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/A8DB/production/_122572234_mediaitem122568623.jpg" alt="">
+          <div class="text">
+            <h2 class="news__content--title">Prince Andrew accuser welcomes legal case decision</h2>
+            <p class="news__content--summary">The Duke of York faces a US civil action over claims he sexually assaulted Virginia Giuffre in 2001.</p>
+            <a href="" class="category--darker">UK</a>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
